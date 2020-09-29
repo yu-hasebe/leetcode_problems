@@ -28,7 +28,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_two_sum() {
+    fn test_length_of_longest_substring() {
         //let s = "abcabcbb".to_string();
         //let expect = 3;
         let s = "abba".to_string();
