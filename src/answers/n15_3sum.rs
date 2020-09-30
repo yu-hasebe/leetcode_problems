@@ -25,7 +25,9 @@ impl Solution {
                 }
             }
         }
-        ret.into_iter().collect::<Vec<Vec<i32>>>()
+        let mut ret = ret.into_iter().collect::<Vec<Vec<i32>>>();
+        ret.sort();
+        ret
     }
 }
 // submitted code ends here
@@ -37,7 +39,7 @@ mod tests {
     #[test]
     fn test_three_sum() {
         let nums = vec![-1, 0, 1, 2, -1, -4];
-        let expect = vec![vec![-1, 0, 1], vec![-1, -1, 2]];
+        let expect = vec![vec![-1, -1, 2], vec![-1, 0, 1]];
         let get = Solution::three_sum(nums);
         assert_eq!(expect, get);
     }
