@@ -8,5 +8,6 @@ pub mod n21_merge_two_sorted_list;
 pub mod n22_generate_parentheses;
 pub mod n2_add_two_numbers;
 pub mod n33_search_in_rotated_sorted_array;
+pub mod n34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod n3_longest_substring_without_repeating_characters;
 pub mod n5_longest_palindromic_substring;
